@@ -6,9 +6,9 @@ import getpass
 
 
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
-api_key = "9fb446f95425c3d706ba6cf52fec1969"
+api_key = input("Enter api key: ")
 #city_name = input("Enter city name: ")
-city_name = 'Bengaluru'
+city_name = 'Bengaluru' # City name
 
 complete_url = base_url + "appid=" + api_key + "&q=" + city_name
 
